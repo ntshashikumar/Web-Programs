@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-radius: 5px;
+            text-align: center;
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h2>Cell that spans two columns</h2>
+    <p>To make a cell span more than one column ,use the colspan attribute.</p>
+    <table style="width: 100%;">
+        <tr>
+            <th colspan="2">Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Shashi</td>
+            <td>Kumar</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Nithin</td>
+            <td>Kumar</td>
+            <td>22</td>
+        </tr>
+    </table>
+    <br>
+    <h2>Cell that spans two rows</h2>
+    <p>To make a cell span more than one row ,use the rowspan attribute</p>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name</th>
+            <td>Shashi</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Phone</th>
+            <td>1234567890</td>
+        </tr>
+        <tr>
+            <td>9087654321</td>
+        </tr>
+    </table>
+        
+</body>
+</html>
